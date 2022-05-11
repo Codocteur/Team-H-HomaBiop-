@@ -1,0 +1,187 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+/*{
+ border: 1px solid red;
+}
+
+/* Sign up page*/
+/* -----------Begin-----------*/
+.main-container{
+    width: 100%;
+   
+}
+.container{
+    display: grid;
+    grid-template-rows: 100%;
+    position: relative;
+}
+.left-container{
+    border: 1px solid;
+    display: flex;
+    background-image: url(contater-nous3.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 50%;
+    padding-bottom:38%;
+    position:absolute;
+    width:;
+    padding: 20px;
+    padding-bottom: 200px;
+    background-color:#a9e39d;
+    
+}
+.compte {
+    color:transparent;
+}
+.box-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+}
+.box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(157, 206, 147, 0.883);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1){
+    left: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(2){
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 1.5s;
+    border-radius: 50%;
+    animation-duration: 10s;
+}
+.box-area li:nth-child(3){
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 5.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(4){
+    left: 27%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(5){
+    left: 35%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(6){
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(7){
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(8){
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(9){
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(10){
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+.compte{
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    margin-top: 70%;
+    margin-left: 10%;
+}
+.right-container{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+}
+form div input{
+    background-color: transparent;
+}
+input{
+    border-style: none;
+    height: 35px;
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+button{
+    border-style: none;
+    height: 35px;
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+.instruiction{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 50px;
+    
+}
+.instruiction a{
+    margin-right: 45px;
+}

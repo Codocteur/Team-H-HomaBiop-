@@ -1,0 +1,589 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+*{
+    width: 100%;
+    font-family: Roboto;
+    
+}
+.Big-container{
+    border:1px solid black;
+    width: 320px;
+    margin: auto;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding:10px
+}
+.menu-container{
+    width: 320px;
+    height: 70px;
+    display: inline-block;
+    background-color: green;
+}
+.title{
+    margin-top: 15px;
+    font-size: 14px;
+    color:green;
+    text-align: center;
+    
+}
+.lorem p{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: Roboto-Light; 
+
+}
+.info-left{
+    margin-right: 20px;
+}
+.info-left p{
+    font-size: 13px;
+    line-height: 1.7;
+    font-family: Roboto-Light; 
+}
+.cni-image{
+    width: 300px;
+    box-shadow: 2px 2px 5px grey;
+}
+.first-demande{
+    margin-left: 10px;
+}
+.flex-line{
+    display: flex;
+    align-items: center;
+}
+.info-piece{
+    font-size: 10px;
+    margin-left: 10px;
+}
+p{
+    font-size: 14px;
+}
+.square1{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    color:green;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border:2px solid green;
+    margin-top: 10px;
+}
+.img-cni img{
+    height: 50px;
+    width: 80px;
+    margin-top: 10px;
+    
+}
+.fa-money-bill-1,
+.fa-calendar-days{
+    color: green;
+    font-size: 25px;
+}
+.info-price{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+}
+.Price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 10px;
+    height: 80px;
+    width: 80%;
+    background-color: green;
+    border-radius: 5px;
+    color:white
+
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 10px;
+    height: 80px;
+    width: 80%;
+    background-color: green;
+    border-radius: 5px;
+    color:white  
+}
+.fa-solid{
+    width: 30px;
+    margin-left: 10px;
+}
+.date p{
+    width: 175px;
+    line-height: 1.5;
+}
+.lorem-price{
+    margin-right: 20px;
+   
+}
+.container-img-info{
+    display: flex;
+    margin-top: 25px;
+    width: 300px;
+   margin-left: 10px;
+} 
+.mini-title{
+    color: green;
+    margin-right: 10px;
+}  
+.info-plus p{
+    font-size: 16px;
+  
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: green;
+   margin-left: 90px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+@media only screen and (min-width: 466px){
+    .Big-container{
+        border:1px solid black;
+        width: 466px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 466px;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .lorem p{
+        width: 430px;
+        font-size: 14px;
+        margin-left: 8px;
+    }
+    .cni-image{
+        width: 400px;
+        height: 170px;
+        margin-left: 22px;
+    }
+    .img-cni img{
+        height: 60px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+    .info-left{
+        margin-right: -70px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 120px;
+        width: 600px;
+    }
+    .info-price{
+        margin-top: 20px;
+        margin-left: 18px; 
+    }
+    .Price,
+    .date{
+        margin: 10px 0px 10px 28px;
+        height: 80px;
+        width: 83%;
+    }
+    .dossier-demander{
+        margin:20px;
+    }
+    .first-demande{
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+    .flex-line{
+        display: flex;
+        align-items: center;
+    }
+    .info-piece{
+        font-size: 13px;
+        margin-left: 18px;
+    }
+    button{
+       margin: 20px 0px 20px 140px;
+       border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-left: 25px;
+    }
+    .cni-image{
+        width: 80%;
+        height: 250px;
+        box-shadow: 2px 2px 5px grey;
+        margin: 10px 0px 0px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-img-info{
+        display: inline-block;
+
+    }
+    .images-cni{
+        display: flex;
+        
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 400px;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+    }
+    .fa-money-bill-1,
+    .fa-calendar-days{
+        color: green;
+        font-size: 30px;
+    }
+    .info-price{
+        margin-top: 40px;
+        margin-left: 30px; 
+    }
+    .Price,
+    .date{
+        margin: 10px 0px 10px 40px;
+        height: 80px;
+        width: 83%;
+    }
+    .date p{
+        width: 70%;
+        text-align: center;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 16px;
+        margin-left: 25px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 220px;
+        border-radius: 5px;
+     }
+}
+@media only screen and (min-width:1024px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+        box-shadow: 2px 2px 5px grey;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-left: 25px;
+    }
+    .cni-image{
+        width: 80%;
+        box-shadow: 2px 2px 5px grey;
+        margin: 10px 0px 0px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-img-info{
+        display: inline-block;
+
+    }
+    .images-cni{
+        display: flex;
+        
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 400px;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+    }
+    .fa-money-bill-1,
+    .fa-calendar-days{
+        color: green;
+        font-size: 30px;
+    }
+    .info-price{
+        margin-top: 40px;
+        margin-left: 30px; 
+    }
+    .Price,
+    .date{
+        margin: 10px 0px 10px 40px;
+        height: 80px;
+        width: 83%;
+    }
+    .date p{
+        width: 70%;
+        text-align: center;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 200px;
+        border-radius: 5px;
+     }
+}
+@media only screen and (min-width:1280px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+        box-shadow: 2px 2px 5px grey;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-left: 25px;
+    }
+    .cni-image{
+        width: 80%;
+        box-shadow: 2px 2px 5px grey;
+        margin: 10px 0px 0px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-img-info{
+        display: inline-block;
+
+    }
+    .images-cni{
+        display: flex;
+        
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 400px;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+    }
+    .fa-money-bill-1,
+    .fa-calendar-days{
+        color: green;
+        font-size: 30px;
+    }
+    .info-price{
+        margin-top: 40px;
+        margin-left: 30px; 
+    }
+    .Price,
+    .date{
+        margin: 10px 0px 10px 40px;
+        height: 80px;
+        width: 83%;
+    }
+    .date p{
+        width: 70%;
+        text-align: center;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 200px;
+        border-radius: 5px;
+     }
+}
+@media only screen and (min-width:1920px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+        box-shadow: 2px 2px 5px grey;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-left: 25px;
+    }
+    .cni-image{
+        width: 80%;
+        box-shadow: 2px 2px 5px grey;
+        margin: 10px 0px 0px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-img-info{
+        display: inline-block;
+
+    }
+    .images-cni{
+        display: flex;
+        
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 400px;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+    }
+    .fa-money-bill-1,
+    .fa-calendar-days{
+        color: green;
+        font-size: 30px;
+    }
+    .info-price{
+        margin-top: 40px;
+        margin-left: 30px; 
+    }
+    .Price,
+    .date{
+        margin: 10px 0px 10px 40px;
+        height: 80px;
+        width: 83%;
+    }
+    .date p{
+        width: 70%;
+        text-align: center;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 200px;
+        border-radius: 5px;
+     }
+}

@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+.isgreen-white{
+    background-color: #d3e5e2;
+}
+.isgreen{
+    background-color: #146c53;
+}
+.isgreen-white-ligth{
+    background-color: #92e3a9;
+    background-color: #4f7a75;
+    background-color: #00887e;
+    background-color: #17a2b8;
+}

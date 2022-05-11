@@ -1,0 +1,434 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+*{
+    width: 100%;
+    font-family: Roboto;
+}
+
+.Big-container{
+    border:1px solid black;
+    width: 320px;
+    margin: auto;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin: 10px;
+}
+.menu-container{
+    height: 70px;
+    width: 320px;
+    display: inline-block;
+    background-color: green;
+}
+
+.title{
+    width: 300px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color:green;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.first-line-passport{
+    display: flex;
+    flex-direction: column;
+}
+.lorem{
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+.lorem p{
+    font-family: 'Roboto-Light';
+}
+.first-demande{
+    margin-left: 0px;
+}
+.flex-line{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.info-piece{
+    width: 320px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.square1{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    color:green;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border:2px solid green;
+    margin-top: 10px;
+}
+.img-passport img{
+    height: 150px;
+    width: 100px;
+    
+}
+.container-img-info{
+    display: flex;
+    margin-top: 25px;
+    width: 280px;
+   margin-left: 0px;
+   padding: 10px;
+   box-shadow: 2px 2px 5px gray;
+} 
+.mini-title{
+    color: green;
+    margin-right: 10px;
+}  
+.info-plus p{
+    font-size: 14px;
+    font-family: 'Roboto-Light';
+  
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: green;
+   margin-left: 90px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin: 20px 0px 20px 70px ;
+   border-radius: 5px;
+}
+@media only screen and (min-width: 466px){
+    .Big-container{
+        border:1px solid black;
+        width: 466px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 466px;
+    }
+    .title{
+        margin: 10px 0px 0px 15px;
+        font-size: 18px;
+        width: 400px;
+    }
+    .lorem p{
+        width: 400px;
+        font-size: 14px;
+    }
+    .flex-line{
+        width: 400px;
+        
+    }
+    .container-img-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        width: 200px;
+        margin-left: 100px;
+    } 
+    .mini-title{
+       text-align: center;
+    }  
+    .info-plus p{
+        text-align: center;
+      
+    }
+    .img-passport{
+        width:100px;
+        margin-left: 50px;
+    }
+    .first-demande{
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+    .flex-line{
+        display: flex;
+        align-items: center;
+    }
+    .info-piece{
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 18px;
+        
+        
+    }
+    button{
+       margin: 20px 0px 20px 140px;
+       border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 600px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin: 10px 0px 0px 70px;
+        font-size: 21px;
+        width: 450px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .passeport-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 15px;
+    }
+    .img-passport img{
+        width: 50px;
+        height: 60px;
+    }
+    .img-passport{
+        width:70px;
+        margin-left: 35px;
+        
+    }
+    .container-img-info{
+        position: relative;
+        display: flex;
+        width: 120px;
+        margin:30px 0px 10px 0px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px grey;
+
+    }
+    .flex-line{
+        width: 550px;
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 450px;
+    }
+    .info-plus{
+        text-align: center;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 16px;
+        margin-left: 25px;
+        width: 400px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 220px;
+        border-radius: 5px;
+     }
+}
+@media only screen and (min-width:1024px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin: 10px 0px 0px 70px;
+        font-size: 21px;
+        width: 450px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .passeport-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 15px;
+    }
+    .img-passport img{
+        width: 50px;
+        height: 60px;
+    }
+    .img-passport{
+        width:70px;
+        margin-left: 35px;
+        
+    }
+    .container-img-info{
+        position: relative;
+        display: flex;
+        width: 120px;
+        margin:30px 0px 10px 0px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px grey;
+
+    }
+    .flex-line{
+        width: 550px;
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 450px;
+    }
+    .info-plus{
+        text-align: center;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 16px;
+        margin-left: 25px;
+        width: 400px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 220px;
+        border-radius: 5px;
+     }
+}
+@media only screen and (min-width:1920px){
+    .Big-container{
+        border:1px solid black;
+        width: 600px;
+        margin: auto;
+    }
+    .menu-container{
+        width: 600px;
+    }
+    .title{
+        margin: 10px 0px 0px 70px;
+        font-size: 21px;
+        width: 450px;
+    }
+    .lorem p{
+        width: 550px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .passeport-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 15px;
+    }
+    .img-passport img{
+        width: 50px;
+        height: 60px;
+    }
+    .img-passport{
+        width:70px;
+        margin-left: 35px;
+        
+    }
+    .container-img-info{
+        position: relative;
+        display: flex;
+        width: 120px;
+        margin:30px 0px 10px 0px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px grey;
+
+    }
+    .flex-line{
+        width: 550px;
+    }
+    .info-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 20px 30px 0px -54px;
+        height: 100px;
+        width: 450px;
+    }
+    .info-plus{
+        text-align: center;
+    }
+    .mini-title{
+        text-align: center;
+    }
+    .mini-title p{
+        display: inline-block;
+        text-align: center;
+        font-size: 10px;
+    }
+    .square1{
+        display: flex;
+        height: 30px;
+        width: 35px;
+    }
+    .info-piece{
+        font-size: 16px;
+        margin-left: 25px;
+        width: 400px;
+    }
+    .first-demande{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    button{
+        margin: 20px 0px 20px 220px;
+        border-radius: 5px;
+     }
+    
+}

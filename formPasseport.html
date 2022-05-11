@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formPasseport.css">
+    <title>Demande De Passeport</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="Big-container">
+        <header></header>
+        <main>
+            <div class="main-container">
+                <div class="container">
+                    <div class="left-container">
+                        <ul class="box-area">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="compte">FORMULAIRE DE DEMANDE DE PASSEPORT</div>
+                    </div>
+                    <div class="right-container">
+                        <div class="form-container">
+                            <form method="post" action="">
+                                <h2>FORMULAIRE PASSEPORT</h2>
+                                <div>
+                                    <select name="typePasseport" id="">
+                                        <option value="">Passeport Odinaire</option>
+                                        <option value="">Passeport Service</option>
+                                        <option value="">Passeport Diplômatique</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <input type="file" id="file" accept="image/*" placeholder=" Choisir la photo">
+                                    <label for="file">
+                                        <span class="choosePhoto">Chosir Photo </span>
+                                        <i class="material-icons">
+                                            add_photo_alternate
+                                        </i>
+                                    </label>
+                                </div>
+                                <div>
+                                    <input type="file" name="photoPasseport" placeholder="Photo Passeport">
+                                </div>
+                                <div>
+                                    <input type="text" name="nom" placeholder="Nom" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="prenom" placeholder="Prénoms" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="paysNais" placeholder="Pays de Naissance" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="LieuNais" placeholder="Lieu de Naissance" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="prefecture" placeholder="Prefecture" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="profession" placeholder="Profession" autofocus required>
+                                </div>
+                                <div>
+                                    <select name="sexe" id="">
+                                        <option value="">Masculin</option>
+                                        <option value="">Féminin</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <input type="text" name="nationalite" placeholder="Nationalité" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="date" name="dateNaissance" placeholder="Date de Naissance" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="sexe" placeholder="Sexe" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="situationFamiliale" placeholder="Situation de Famille" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="adresse" placeholder="Adresse Courante" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="autreAdresse" placeholder="Autre Adresse" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="certifNationalite" placeholder="Certificat de Nationalité N°" autofocus required>
+                                    <input type="date" name="dateLivraison" placeholder="Date Livraison" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="certifNaissance" placeholder="Certificat de Naissance N°" autofocus required>
+                                    <input type="date" name="dateLivraison" placeholder="Date Livraison" autofocus required>
+                                </div>
+                                <div>
+                                    <input type="text" name="carteIdentite" placeholder="Carte D'identité Nationale N°" autofocus required>
+                                    <input type="date" name="dateLivraison" placeholder="Date Livraison" autofocus required>
+                                </div>
+                                <div class="Btn-items">
+                                    <button type="reset">Effacer</button>
+                                    <button type="submit">Valider</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

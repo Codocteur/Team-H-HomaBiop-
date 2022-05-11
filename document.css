@@ -1,0 +1,130 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+*{
+    font-family: Roboto;
+}
+.container-services{
+    box-shadow: 3px 3px 5px gray;
+    width: 320px;
+    margin: auto;
+}
+.services{
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.fa-passport,
+.fa-id-card,
+.fa-file-lines,
+.fa-folder-open{
+    color: green;
+    font-size: 50px;
+}
+.lorem{
+    display: inline-block;
+    text-align: justify;
+    width: 240px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.passport,
+.identite,
+.naissance,
+.cassier-judiciaire{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    padding:10px;
+    box-shadow: 2px 2px 8px grey;
+    width: 240px;
+    margin-bottom: 20px;
+}
+.services-items{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+b{
+    color: green;
+}
+@media only screen and (min-width:466px) {
+    .container-services{
+        width: 466px;
+        margin: auto;
+    }
+    .services{
+        margin-left: 120px;
+        border: 2px solid green;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (min-width:600px) {
+    .container-services{
+        width: 550px;
+        margin: auto;
+    }
+    .services{
+        margin-left: 190px;
+    }
+    .services-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .fa-passport,
+    .fa-id-card,
+    .fa-file-lines,
+    .fa-folder-open{
+    font-size: 50px;
+    }
+    .passport,
+    .identite,
+    .naissance,
+    .cassier-judiciaire{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .lorem{
+        width: 180px;
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .container-services{
+        width: 1024px;
+        margin: auto;
+    }
+    .services{
+        margin-left: 400px;
+        font-size: 25px;
+        border: none;
+        font-size: 24px;
+    }
+    .passport,
+    .identite,
+    .naissance,
+    .cassier-judiciaire{
+        width: 180px;
+        margin-left: 10px;
+        
+    }
+    .lorem{
+        width: 170px;
+    }
+    .services-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
