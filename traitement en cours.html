@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://kit.fontawesome.com/d2e7a0fac3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="big-container">
+        <div class="left-container">
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <div class="icone-wrapper"><img src="./image/accueil.png" alt="" width="40px"></div>
+                        <div class="name-container">HOMABIOPE</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="utilisateurs enregistrés.html">
+                        <div class="icone-wrapper"><img src="./image/groupe-dutilisateurs.png" alt="" width="40x"></div>
+                        <div class="name-container">Personnes Enregistrées</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="traitement en cours.html">
+                        <div class="icone-wrapper"><img src="./image/delai-de-traitement.png" alt="" width="40px"></div>
+                        <div class="name-container">Traitements en cours</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="utilisateurs confimer.html">
+                        <div class="icone-wrapper"><img src="./image/succes.png" alt="" width="40px"></div>
+                        <div class="name-container">Procédure confirmées</div>
+                    </a>
+                </li>
+            </ul>
+            <button disabled="disabled">Déconnexion</button>
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="search-bar">
+                    <input type="text" placeholder="Rechercher...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="admin-account">
+                    <div class="notification-icon"><a href="compte admin.html"><img src="./image/cloche.png" alt=""
+                                width="100%"></a></div>
+                    <div class="admin-icon"><a href="compte admin.html"><img src="./image/utilisateur.png" alt=""
+                                width="100%"></a></div>
+                </div>
+            </div>
+            <div class="second-links">
+                <div class="all-users"><a href="utilisateurs enregistrés.html">Utilisateurs enrégistrés</a></div>
+                <div class="all-users"><a href="traitement en cours.html">traitement en cours</a></div>
+                <div class="all-users"><a href="utilisateurs confimer.html">procédures confirmés</a></div>
+            </div>
+            <div class="table-tittle">traitements en cours</div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>type de documents</th>
+                            <th>pièces fournies</th>
+                            <th>pieces restantes</th>
+                            <th>action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>007</td>
+                            <td>CNI</td>
+                            <td>
+                                <ul>
+                                    <li>nationalité</li>
+                                    <li>naissance</li>
+                                    <li>groupage</li>
+                                    <li>photo passeport</li>
+                                    <li>preuve de profession</li>
+                                    <li>quitance</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>nationalité</li>
+                                    <li>naissance</li>
+                                    <li>groupage</li>
+                                    <li>photo passeport</li>
+                                    <li>preuve de profession</li>
+                                    <li>quitance</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Confirmer</option>
+                                    <option value="">Rejéter</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>008</td>
+                            <td>passeport</td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Confirmer</option>
+                                    <option value="">Rejéter</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>009</td>
+                            <td>casier judiciaire</td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li> 
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Confirmer</option>
+                                    <option value="">Rejéter</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>010</td>
+                            <td>CNI</td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorme</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                    <li>lorem</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Confirmer</option>
+                                    <option value="">Rejéter</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
