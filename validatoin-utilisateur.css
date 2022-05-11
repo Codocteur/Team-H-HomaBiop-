@@ -1,0 +1,82 @@
+.names label{
+    display: block;
+    font-weight: bold;
+}
+body{
+    background-color: #f2efe6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #0c6f52;
+    font-size: 35px;
+    color: white;
+}
+header div:first-child{
+    margin-top: 20px;
+}
+.profil{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profil a{
+    text-decoration: none;
+    color: white;
+}
+.names input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+.names select{
+    width: 250px;
+}
+button{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: white;
+    background-color:#0c6f52;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.two-form{
+    margin-left: 20px;
+}
+h2{
+    margin-left: 20px;
+}
+@media only screen and (min-width:550px) {
+    .two-form{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    h2{
+        margin-left: 400px;
+    }
+    .button{
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(108, 129, 108);
+        background-color:  ;
+    }
+
+}
+@media only screen and (min-width:1020px) {
+    .names input{
+        width:400px ;
+        height: 50px;
+    }
+.names select{
+    width: 406px;
+}
+.button button{
+    color: white;
+    width: 100px;
+    height: 50px;
+    f
+}
+}

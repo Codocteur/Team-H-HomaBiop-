@@ -1,0 +1,99 @@
+header{
+    width: 100%;
+    height: 70px;
+    background: #0c6f52;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+body{
+    
+    background-color: #f2efe6;
+}
+.connexion{
+    margin-top: 80px;
+    margin-left: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0c6f52;
+    text-align: center; 
+}
+.formulaire{
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin: auto;
+}
+input{
+    width: 290px;
+    height: 50px;
+    margin-top: 50px;
+    /* margin-left: 6px; */
+    border-radius: 5px;
+
+}
+button{
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: white;
+    font-weight: bold;
+    background-color:#0c6f52;
+    border-radius: 10px;
+    
+    
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.head{
+    font-weight: bold;
+}
+@media only screen and (min-width:550px) {
+    .connexion{
+        color: #0c6f52;
+        font-size: 30px;
+        text-align: center;
+    }
+    .formulaire{
+        margin: auto;
+
+        
+    }
+    button{
+        margin-left: 50%;
+    }
+        
+    input{
+        width: 400px;
+        height: 60px;
+        margin-right: 50%;
+    }
+}
+@media only screen and (min-width:1020px) {
+    .connexion{
+        color: #0c6f52;
+        font-size: 30px;
+        text-align: center;
+    }
+    .formulaire{
+    }
+    .input{
+        width: 500px;
+        height: 70px;
+    }
+    button{
+        width: 180px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 45%;
+        color: rgb(17, 102, 52);
+        font-weight: bold;
+        
+    }
+}
+
