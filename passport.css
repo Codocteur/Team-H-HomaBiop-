@@ -27,7 +27,7 @@ main{
     height: 70px;
     width: 320px;
     display: inline-block;
-    background-color: green;
+    background-color: darkgreen;
 }
 
 .title{
@@ -35,7 +35,7 @@ main{
     display: inline-block;
     margin-top: 10px;
     font-size: 16px;
-    color:green;
+    color:darkgreen;
     text-align: center;
     margin-bottom: -10px;
 }
@@ -72,11 +72,11 @@ main{
     display: flex;
     height: 25px;
     width: 25px;
-    color:green;
+    color:darkgreen;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border:2px solid green;
+    border:2px solid darkgreen;
     margin-top: 10px;
 }
 .img-passport img{
@@ -93,7 +93,7 @@ main{
    box-shadow: 2px 2px 5px gray;
 } 
 .mini-title{
-    color: green;
+    color: darkgreen;
     margin-right: 10px;
 }  
 .info-plus p{
@@ -109,7 +109,7 @@ button{
     border: none;
     height: 40px;
     width: 150px;
-    background-color: green;
+    background-color: darkgreen;
    margin-left: 90px;
    margin-top: 20px;
    margin-bottom: 20px;

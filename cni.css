@@ -27,12 +27,12 @@ main{
     width: 320px;
     height: 70px;
     display: inline-block;
-    background-color: green;
+    background-color: darkgreen;
 }
 .title{
     margin-top: 15px;
     font-size: 14px;
-    color:green;
+    color:darkgreen;
     text-align: center;
     
 }
@@ -79,7 +79,7 @@ p{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border:2px solid green;
+    border:2px solid darkgreen;
     margin-top: 10px;
 }
 .img-cni img{
@@ -90,7 +90,7 @@ p{
 }
 .fa-money-bill-1,
 .fa-calendar-days{
-    color: green;
+    color: darkgreen;
     font-size: 25px;
 }
 .info-price{
@@ -107,7 +107,7 @@ p{
     margin: 10px 0px 10px 10px;
     height: 80px;
     width: 80%;
-    background-color: green;
+    background-color: darkgreen;
     border-radius: 5px;
     color:white
 
@@ -119,7 +119,7 @@ p{
     margin: 10px 0px 10px 10px;
     height: 80px;
     width: 80%;
-    background-color: green;
+    background-color: darkgreen;
     border-radius: 5px;
     color:white  
 }
@@ -142,7 +142,7 @@ p{
    margin-left: 10px;
 } 
 .mini-title{
-    color: green;
+    color: darkgreen;
     margin-right: 10px;
 }  
 .info-plus p{
@@ -157,7 +157,7 @@ button{
     border: none;
     height: 40px;
     width: 150px;
-    background-color: green;
+    background-color: darkgreen;
    margin-left: 90px;
    margin-top: 20px;
    margin-bottom: 20px;
@@ -285,7 +285,7 @@ button{
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: green;
+        color: darkgreen;
         font-size: 30px;
     }
     .info-price{
@@ -374,7 +374,7 @@ button{
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: green;
+        color: darkgreen;
         font-size: 30px;
     }
     .info-price{
@@ -463,7 +463,7 @@ button{
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: green;
+        color: darkgreen;
         font-size: 30px;
     }
     .info-price{

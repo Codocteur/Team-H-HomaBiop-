@@ -16,7 +16,7 @@
 }
 .services{
     display: inline-block;
-    color: green;
+    color: darkgreen;
     font-weight: bold;
     font-size: 18px;
     margin-left: 70px;
@@ -27,7 +27,7 @@
 .fa-id-card,
 .fa-file-lines,
 .fa-folder-open{
-    color: green;
+    color: darkgreen;
     font-size: 50px;
 }
 .lorem{
@@ -55,7 +55,7 @@
     justify-content: center;
 }
 b{
-    color: green;
+    color: darkgreen;
 }
 @media only screen and (min-width:466px) {
     .container-services{
@@ -63,8 +63,7 @@ b{
         margin: auto;
     }
     .services{
-        margin-left: 120px;
-        border: 2px solid green;
+        margin-left: 150px;
         padding: 15px;
         border-radius: 10px;
     }
@@ -72,11 +71,12 @@ b{
 }
 @media only screen and (min-width:600px) {
     .container-services{
-        width: 550px;
+        width: 600px;
         margin: auto;
     }
     .services{
-        margin-left: 190px;
+        margin-left: 240px;
+        border: none;
     }
     .services-items{
         display: grid;
@@ -93,7 +93,7 @@ b{
     .naissance,
     .cassier-judiciaire{
         width: 200px;
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .lorem{
         width: 180px;

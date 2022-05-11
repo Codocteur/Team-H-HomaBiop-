@@ -38,7 +38,7 @@ body{
     font-family: 'Roboto';
 }
 h2{
-    color:green;
+    color:darkgreen;
     font-size: 18px;
     font-family: 'Roboto';
 }
@@ -177,7 +177,7 @@ button{
     width: 75%;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-color: green;
+    background-color: darkgreen;
     color: white;
     
 }
@@ -206,7 +206,7 @@ label{
 }
 a{
     text-decoration: none;
-    color:green;
+    color:darkgreen;
 }
 .instruiction{
     display: inline-block;
@@ -313,8 +313,8 @@ a{
         width: 25%;
         border-radius: 8px;
         background-color: white;
-        border: 3px solid green;
-        color: green;
+        border: 3px solid darkgreen;
+        color: darkgreen;
         
     }
 }
@@ -360,8 +360,8 @@ a{
         width: 25%;
         border-radius: 8px;
         background-color: white;
-        border: 3px solid green;
-        color: green;
+        border: 3px solid darkgreen;
+        color: darkgreen;
         
     }
     .material-icons{
