@@ -6,15 +6,7 @@
     font-family: 'Roboto-Light';
     src: url('fonts/Roboto-Light.ttf');
 }
-.isgreen-white{
-    background-color: #d3e5e2;
-}
-.isgreen{
-    background-color: #146c53;
-}
-.isgreen-white-ligth{
-    background-color: #92e3a9;
-}
+
 *{
     width: 100%;
     font-family: Roboto;
@@ -37,19 +29,17 @@ main{
     width: 320px;
     height: 70px;
     display: inline-block;
-    background-color: darkgreen;
 }
 .title{
     margin-top: 15px;
     font-size: 14px;
-    color:darkgreen;
     text-align: center;
     
 }
 .lorem p{
     width: 300px;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     font-size: 13px;
     line-height: 1.5;
     font-family: Roboto-Light; 
@@ -89,11 +79,10 @@ p{
     display: flex;
     height: 25px;
     width: 25px;
-    color:darkgreen;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border:2px solid darkgreen;
+    border:2px solid #146c53;
     margin-top: 10px;
 }
 
@@ -106,7 +95,6 @@ p{
 }
 .fa-money-bill-1,
 .fa-calendar-days{
-    color: darkgreen;
     font-size: 25px;
 }
 .info-price{
@@ -123,7 +111,6 @@ p{
     margin: 10px 0px 10px 10px;
     height: 80px;
     width: 80%;
-    background-color: darkgreen;
     border-radius: 5px;
     color:white;
 
@@ -135,7 +122,6 @@ p{
     margin: 10px 0px 10px 10px;
     height: 80px;
     width: 80%;
-    background-color: darkgreen;
     border-radius: 5px;
     color:white  
 }
@@ -159,8 +145,6 @@ p{
    box-shadow: 2px 2px 5px grey;
 } 
 .mini-title{
-   
-    color: darkgreen;
     margin-right: 10px;
 }  
 .info-plus{
@@ -182,7 +166,6 @@ button{
     border: none;
     height: 40px;
     width: 150px;
-    background-color: darkgreen;
    margin-left: 90px;
    margin-top: 20px;
    margin-bottom: 20px;
@@ -431,7 +414,6 @@ button{
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: darkgreen;
         font-size: 30px;
     }
     .info-price{
@@ -518,7 +500,6 @@ button{
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: darkgreen;
         font-size: 30px;
     }
     .info-price{
@@ -572,6 +553,7 @@ button{
         font-size: 16px;
         line-height: 1.8;
         margin-left: 25px;
+        text-align: justify;
     }
    
     .container-img-info{
@@ -597,11 +579,10 @@ button{
     }
     .mini-title p{
         display: inline-block;
-        text-align: center;
+        text-align: justify;
     }
     .fa-money-bill-1,
     .fa-calendar-days{
-        color: darkgreen;
         font-size: 30px;
     }
     .info-price{

@@ -12,6 +12,12 @@
 .isgreen{
     background-color: #146c53;
 }
+.fontgreen{
+    color: #146c53;
+}
+.bggreen{
+    background-color: #146c53;
+}
 .isgreen-white-ligth{
     background-color: #92e3a9;
     background-color: #4f7a75;

@@ -7,14 +7,14 @@
     src: url('fonts/Roboto-Light.ttf');
 }
 
-body{
-    padding: 0%;
-    margin: 0%;
-}
 .Big-container{
-    border:1px solid black;
-    width: 320px;
+    width: 100%;
     margin: auto;
+    box-shadow: 2px 2px 5px black;
+}
+body{
+    padding: 0;
+    margin: 0;
 }
 /*{
  border: 1px solid red;
@@ -23,13 +23,23 @@ body{
 /* Sign up page*/
 /* -----------Begin-----------*/
 .main-container{
-    width: 100%;
+    width: 320px;
    
 }
 .container{
-    width: 320px;
     display: grid;
     grid-template-rows: 50% 50%;
+}
+.compte{
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto';
+}
+h2{
+    color:darkgreen;
+    font-size: 18px;
+    font-family: 'Roboto';
 }
 .left-container{
     display: flex;
@@ -45,7 +55,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 46%;
+    height: 25%;
     overflow: hidden;
 }
 .box-area li{
@@ -147,23 +157,24 @@ body{
     font-size: 24px;
     margin-top: 70%;
     margin-left: 10%;
-    font-family: Roboto;
-}
-h2{
-    color:darkgreen;
-    font-size: 18px;
-    font-family: Roboto;
 }
 .right-container{
     display: inline-block;
     text-align: center;
 }
-input, select{
+.display-block{
+    display:inline-block;
+}
+label{
+    text-align: left;
+    margin: 0px 0px 5px 30px;
+}
+input{
     border-style: none;
     height: 35px;
-    width: 75%;
+    width: 80%;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 30px;
     border: 1px solid gray;
 }
 button{
@@ -174,75 +185,113 @@ button{
     margin-bottom: 10px;
     background-color: darkgreen;
     color: white;
-    font-family: Roboto;
     
 }
 input[type="file"]{
     display: none;
 }
-label{
-    height: 35px;
-    width: 75%;
+.choice-picture{
+    height: 70px;
+    width: 80%;
     border-radius: 5px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    border: 1px solid gray;
-    display: flex;
-    align-items: center;
-    
+    margin: 0px 0px 10px 30px;
+    border: 2px dashed darkgreen;
 }
-.material-icons{
-    margin-left: 110px;
-    color: grey;
-}
-.choosePhoto{
-    display: inline-block;
-    margin-left: 5px;
-    color: grey;
+.fa-cloud-arrow-down{
+    font-size: 30px;
+    margin-top: 20px;
+    color: darkgreen;
+
 }
 a{
     text-decoration: none;
     color:darkgreen;
 }
-.instruiction{
-    display: inline-block;
-    text-align: center;
-    width: 70%;
-    margin-bottom: 50px;
-    
+label{
+    cursor: none;
 }
-.instruiction a{
-    margin-right: 45px;
-}
+.display-grid{
+    display:grid;
+    grid-template-columns: 1fr;
 
-@media only screen and (min-width:466px){
+}
+.box-area{
+    height: 64%;
+}
+@media only screen and (min-width: 466px) {
     .Big-container{
-        border:1px solid black;
         width: 466px;
         margin: auto;
+        box-shadow: 2px 2px 5px black;
     }
     .left-container{
         width: 466px;
         
     }
-    .material-icons{
-        margin-left: 160px;
+    .compte{
+        width: 350px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .box-area{
+        height: 74%;
+    }
+    input{
+        height: 40px;
+        width: 80%;
+        margin: 5px 0px 20px 30px;
+    }
+    .display-grid{
+        margin-left: 20px;
+    
+    }
+    .choice-picture{
+        height: 90px;
+        width: 78%;
+        margin: 0px 0px 20px 50px;
+    }
+    .fa-cloud-arrow-down{
+        font-size: 35px;
+        margin-top: 22px;
+        color: darkgreen;
+    
+    }
+}
+@media only screen and (min-width:600px){
+    .Big-container{
+        width: 600px;
+        margin: auto;
+        box-shadow: 2px 2px 8px black;
+    }
+    .left-container{
+        width: 600px;
+        
     }
     .compte{
         width: 500px;
-        margin-left: 60px;
-        margin-bottom: -50px;
+        margin-left: 40px;
+        margin-bottom: -10px;
+    }
+    .box-area{
+        height: 77%;
+        margin-left: 50px;
     }
     label{
-        margin-left: 55px;
+        font-size: 20px;
+    }
+    input{
+        height: 50px;
     }
     .Btn-items{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 350px;
-        margin-left: 60px;
-        padding: 10px 0 10px 0;
+        width: 456px;
+        margin-left: 70px;
+        padding: 20px 0 20px 0;
     }
     button{
         width: 30%;
@@ -252,27 +301,27 @@ a{
 }
 @media only screen and (min-width:1024px){
     .Big-container{
-        border:1px solid black;
         width: 1024px;
+        box-shadow: 2px 2px 5px black;
         margin: auto;
     }
     .container{
         width: 1024px;
         grid-template-columns: 50% 50%;
+        margin-top: 45%;
     }
     .compte{
         width: 350px;
         height: 60px;
         margin-left: 80px;
-        margin-bottom: -500px;
+        margin-bottom: -100px;
     }
     .left-container{
         width: 512px;
+        height: 135%;
         
     }
-    label{
-        margin-left: 60px;
-    }
+ 
     .Btn-items{
         width: 77%;
         display: flex;
@@ -291,54 +340,5 @@ a{
         
     }
 }
-@media only screen and (min-width:1280px){
-    .Big-container{
-        border:1px solid black;
-        width: 1280px;
-        margin: auto;
-    }
-    .container{
-        width: 1280px;
-        grid-template-columns: 50% 50%;
-    }
-    .compte{
-        width: 500px;
-        height: 90px;
-        margin-left: 70px;
-        margin-bottom: -500px;
-        font-size: 35px;
-    }
-    .left-container{
-        width: 640px;
-        
-    }
-    input, select{
-        height: 40px;
-        width: 75%;
-        margin-bottom: 15px;
-    }
-    label{
-        margin-left: 76px;
-        height: 43px;
-    }
-    .Btn-items{
-        width: 77%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 73px;
-    }
-    button{
-        height: 40px;
-        width: 25%;
-        border-radius: 8px;
-        background-color: white;
-        border: 3px solid darkgreen;
-        color: darkgreen;
-        
-    }
-    .material-icons{
-        margin-left: 365px;
-        color: grey;
-    }
-}
+
+    

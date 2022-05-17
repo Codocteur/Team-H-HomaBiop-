@@ -12,7 +12,7 @@
 }
 
 .Big-container{
-    border:1px solid black;
+    box-shadow: 2px 2px 5px black;
     width: 320px;
     margin: auto;
 }
@@ -27,7 +27,6 @@ main{
     height: 70px;
     width: 320px;
     display: inline-block;
-    background-color: darkgreen;
 }
 
 .title{
@@ -35,7 +34,6 @@ main{
     display: inline-block;
     margin-top: 10px;
     font-size: 16px;
-    color:darkgreen;
     text-align: center;
     margin-bottom: -10px;
 }
@@ -46,7 +44,7 @@ main{
 .lorem{
     width: 250px;
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     font-size: 12px;
     padding: 20px;
     line-height: 1.5;
@@ -72,11 +70,10 @@ main{
     display: flex;
     height: 25px;
     width: 25px;
-    color:darkgreen;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border:2px solid darkgreen;
+    border:2px solid #146c53;
     margin-top: 10px;
 }
 .img-passport img{
@@ -93,12 +90,12 @@ main{
    box-shadow: 2px 2px 5px gray;
 } 
 .mini-title{
-    color: darkgreen;
     margin-right: 10px;
 }  
 .info-plus p{
     font-size: 14px;
     font-family: 'Roboto-Light';
+    text-align: justify;
   
 }
 a{
@@ -109,7 +106,6 @@ button{
     border: none;
     height: 40px;
     width: 150px;
-    background-color: darkgreen;
    margin-left: 90px;
    margin-top: 20px;
    margin-bottom: 20px;
@@ -118,7 +114,7 @@ button{
 }
 @media only screen and (min-width: 466px){
     .Big-container{
-        border:1px solid black;
+        box-shadow: 2px 2px 5px black;
         width: 466px;
         margin: auto;
     }
@@ -178,7 +174,7 @@ button{
 }
 @media only screen and (min-width: 600px){
     .Big-container{
-        border:1px solid black;
+        box-shadow: 2px 2px 5px black;
         width: 600px;
         margin: auto;
     }
@@ -263,7 +259,7 @@ button{
 }
 @media only screen and (min-width:1024px){
     .Big-container{
-        border:1px solid black;
+        box-shadow: 2px 2px 5px black;
         width: 600px;
         margin: auto;
     }
@@ -346,89 +342,4 @@ button{
         border-radius: 5px;
      }
 }
-@media only screen and (min-width:1920px){
-    .Big-container{
-        border:1px solid black;
-        width: 600px;
-        margin: auto;
-    }
-    .menu-container{
-        width: 600px;
-    }
-    .title{
-        margin: 10px 0px 0px 70px;
-        font-size: 21px;
-        width: 450px;
-    }
-    .lorem p{
-        width: 550px;
-        font-size: 16px;
-        line-height: 1.8;
-    }
-    .passeport-image{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin-left: 15px;
-    }
-    .img-passport img{
-        width: 50px;
-        height: 60px;
-    }
-    .img-passport{
-        width:70px;
-        margin-left: 35px;
-        
-    }
-    .container-img-info{
-        position: relative;
-        display: flex;
-        width: 120px;
-        margin:30px 0px 10px 0px;
-        border-radius: 5px;
-        box-shadow: 2px 2px 5px grey;
 
-    }
-    .flex-line{
-        width: 550px;
-    }
-    .info-left{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        margin: 20px 30px 0px -54px;
-        height: 100px;
-        width: 450px;
-    }
-    .info-plus{
-        text-align: center;
-    }
-    .mini-title{
-        text-align: center;
-    }
-    .mini-title p{
-        display: inline-block;
-        text-align: center;
-        font-size: 10px;
-    }
-    .square1{
-        display: flex;
-        height: 30px;
-        width: 35px;
-    }
-    .info-piece{
-        font-size: 16px;
-        margin-left: 25px;
-        width: 400px;
-    }
-    .first-demande{
-        margin-left: 40px;
-        margin-top: 20px;
-    }
-    button{
-        margin: 20px 0px 20px 220px;
-        border-radius: 5px;
-     }
-    
-}
