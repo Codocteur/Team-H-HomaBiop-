@@ -1,0 +1,344 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+
+.Big-container{
+    width: 100%;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/*{
+ border: 1px solid red;
+}
+
+/* Sign up page*/
+/* -----------Begin-----------*/
+.main-container{
+    width: 320px;
+   
+}
+.container{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.compte{
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto';
+}
+h2{
+    color:darkgreen;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.left-container{
+    display: flex;
+    background-image: url('images/redimention_green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-bottom:38%
+    
+}
+.box-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+}
+.box-area li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+}
+.box-area li:nth-child(1){
+    left: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation-delay: 0s;
+}
+.box-area li:nth-child(2){
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 1.5s;
+    border-radius: 50%;
+    animation-duration: 10s;
+}
+.box-area li:nth-child(3){
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 5.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(4){
+    left: 27%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(5){
+    left: 35%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(6){
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(7){
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(8){
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(9){
+    left: 45%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 2s;
+    border-radius: 50%;
+}
+.box-area li:nth-child(10){
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 3.5s;
+    border-radius: 50%;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+.compte{
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    margin-top: 70%;
+    margin-left: 10%;
+}
+.right-container{
+    display: inline-block;
+    text-align: center;
+}
+.display-block{
+    display:inline-block;
+}
+label{
+    text-align: left;
+    margin: 0px 0px 5px 30px;
+}
+input{
+    border-style: none;
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0px 0px 10px 30px;
+    border: 1px solid gray;
+}
+button{
+    border-style: none;
+    height: 35px;
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #146c53;
+    color: white;
+    
+}
+input[type="file"]{
+    display: none;
+}
+.choice-picture{
+    height: 70px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0px 0px 10px 30px;
+    border: 2px dashed #146c53;
+}
+.fa-cloud-arrow-down{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #146c53;
+
+}
+a{
+    text-decoration: none;
+    color:#146c53;
+}
+label{
+    cursor: none;
+}
+.display-grid{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.box-area{
+    height: 64%;
+}
+@media only screen and (min-width: 466px) {
+    .Big-container{
+        width: 466px;
+        margin: auto;
+        box-shadow: 2px 2px 5px black;
+    }
+    .left-container{
+        width: 466px;
+        
+    }
+    .compte{
+        width: 350px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .box-area{
+        height: 74%;
+    }
+    input{
+        height: 40px;
+        width: 80%;
+        margin: 5px 0px 20px 30px;
+    }
+    .display-grid{
+        margin-left: 20px;
+    
+    }
+    .choice-picture{
+        height: 90px;
+        width: 78%;
+        margin: 0px 0px 20px 50px;
+    }
+    .fa-cloud-arrow-down{
+        font-size: 35px;
+        margin-top: 22px;
+        color: #146c53;
+    
+    }
+}
+@media only screen and (min-width:600px){
+    .Big-container{
+        width: 600px;
+        margin: auto;
+        box-shadow: 2px 2px 8px black;
+    }
+    .left-container{
+        width: 600px;
+        
+    }
+    .compte{
+        width: 500px;
+        margin-left: 40px;
+        margin-bottom: -10px;
+    }
+    .box-area{
+        height: 77%;
+        margin-left: 50px;
+    }
+    label{
+        font-size: 20px;
+    }
+    input{
+        height: 50px;
+    }
+    .Btn-items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 456px;
+        margin-left: 70px;
+        padding: 20px 0 20px 0;
+    }
+    button{
+        width: 30%;
+        
+    }
+    
+}
+@media only screen and (min-width:1024px){
+    .Big-container{
+        width: 1024px;
+        box-shadow: 2px 2px 5px black;
+        margin: auto;
+    }
+    .container{
+        width: 1024px;
+        grid-template-columns: 50% 50%;
+        margin-top: 45%;
+    }
+    .compte{
+        width: 350px;
+        height: 60px;
+        margin-left: 80px;
+        margin-bottom: -100px;
+    }
+    .left-container{
+        width: 512px;
+        height:;
+        
+    }
+ 
+    .Btn-items{
+        width: 77%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 62px;
+    }
+    
+    button{
+        height: 40px;
+        width: 25%;
+        border-radius: 8px;
+        background-color: white;
+        border: 3px solid #146c53;
+        color: #146c53;
+        
+    }
+}
+
+    
