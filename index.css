@@ -1,0 +1,1759 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf');
+}
+*{
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+.big-container-desktop{
+    display: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+    
+}
+.fa-location-dot,
+.fa-paper-plane,
+.fa-phone{
+    color: darkgreen;
+}
+.Big-container{
+    box-shadow: 2px 2px 5px grey;
+    margin:auto;
+    width: 100%;
+    background-color: #d3e5e2;
+}
+nav{
+	width: 320px;
+	height: 80px;
+	background-color: darkgreen;
+}
+nav ul{
+    color: white;
+    margin: -70px 0px 0px 100px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+    color: white;
+    margin-left: 5px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+    font-size: 8px;
+}
+img{
+	width: 60%;
+	margin-left:-50px;
+    margin-top: -10px;
+    
+}
+nav ul li:hover{
+	background-color:darkgreen;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.slider{
+    width: 320px;
+    height:450px;
+    background-image: url(images/femme-laptop-mobile.jpeg);
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation:slider 35s infinite linear;
+    position: relative;
+}
+.text-container{
+    width: auto;
+    height: 50px;
+    margin-left: 80px;
+    position: absolute;
+   
+    
+}
+.text{
+    display: block;
+    margin-top: 60%;
+    margin-left: -25px;
+}
+
+.text:after{
+    content:'' ;
+    font-size: 50px;
+    text-size-adjust:auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation:bande 35s infinite linear;
+    margin-left: 0px;
+    
+
+}
+
+@keyframes slider{
+    0%{background-image: url(img/IMG-20220422-WA0015.jpg);
+        background-position:center;
+        background-size: cover; }
+
+    15% {background-image: url(img/homme-ordinateur-souriant.jpg);
+    background-position:center;
+    background-size: cover;}
+   
+    45%{background-image: url(img/homme-ordinateur-souriant.jpg);
+    background-size: cover;}
+   
+    75%{background-image: url(images/femme-pc.jpg);
+        background-size: cover;}
+    90%{background-image: url(img/IMG-20220422-WA0024.jpg);
+        background-size: cover;}
+    100%{background-image: url(images/homme-saut.png);
+        background-size: cover;
+    background-position-y: 20%;}
+
+}
+@keyframes bande{
+    0%{color:white;
+   content: "faite nous confiance "; }
+    15%{color:yellow;
+    content: "Heureux de vous compter";
+    margin-top: 50%;}
+    30%{ color: red;}
+    45%{ color: rgb(41, 240, 164);
+    content: "une equipe dynamique 24H/24";}
+  
+    75%{ color: rgb(19, 96, 185);
+    content: "rejoignez nous!";}
+    90%{ color: cornflowerblue;
+    content: "vivez l'experience homabiope!";}
+    100%{ color: rgb(2, 2, 2);
+        content: "Bienvenu a homabiopé";}
+}
+.one{
+   display: inline-block;
+
+}
+.img-tittle-one{
+    font-size: 18px;
+    color:darkgreen;
+    text-align: center;
+    margin-top: 10px;
+}
+.savoir-plus{
+    width: 300px;
+}
+.one-text{
+    display: inline-block;
+    width: 300px;
+    text-align: justify;
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.icon-savoir-plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: darkgreen;
+    width: 80px;
+    height: 25px;
+    margin: 0px 110px 0px 110px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.video-wrapper video{
+    width: 300px;
+    margin: 10px;
+}
+
+.tree{
+    width: 300px;
+    height: 100px;
+}
+marquee.procedure{
+    width: 300px;
+    height: 100px;
+    
+  }
+  .procedure-container{
+      width: 1200px;
+      height: 500px;
+      margin: auto;
+      margin-top: 5px;
+
+  }
+  .blue{
+      width: 500px;
+      height: 500px;
+      margin: 5px;
+      text-align: center;
+  }
+  .green{
+      width: 500px;
+      height: 100px;
+      margin: 5px;
+      text-align: center;
+  }
+ 
+  
+  .grey{
+      width: 500px;
+      height: 100px;
+      margin: 5px;
+      text-align: center;
+  }
+  .grey img,
+  .green img{
+      margin-left: 5px;
+  }
+.procedure{
+    display: inline-flex;
+}
+.flex-marquee{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+.etape-text{
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+}
+.etape-text1{
+    margin-top: 800px;
+}
+.procedure-container marquee{
+    height: 230px;
+    border-left: 10px solid darkgreen;
+    border-right: 10px solid darkgreen;
+}
+figure img{
+    border-radius: 20px;
+}
+figure i{
+    font-size: 50px;
+    margin-top: 160px;
+    position:absolute;
+    z-index: 3;
+}
+figure i:hover{
+    color: rgb(20, 104, 38);
+    cursor: pointer;
+    text-shadow: 5px 5px 10px, 5px 5px 10px #7a8d3a;
+}
+
+@keyframes figure{
+    0%{transform:translateX(0%);}
+    5%{transform:translateX(0%);}
+    10%{transform:translateX(0%);}
+    20%{transform:translateX(0%);}
+    30%{transform:translateX(0%);}
+    50%{transform:translateX(-40%);}
+    60%{transform:translateX(-40%);}
+    70%{transform:translateX(-40%);}
+    90%{transform:translateX(-40%);}
+    150%{transform:translateX(-40%);}
+}
+.second-line{
+    margin-top: 150px;
+}
+
+/*experience*/
+.experience-container{
+	width: 320px;
+	background: #f1f1f1;
+	padding: 20px 0;
+}
+
+.experience-width{
+	max-width: 1000px;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: auto;
+}
+.experience-width h3,
+.bloc h3{
+    display: inline-block;
+    margin-left: 70px;
+    color: darkgreen;
+}
+.experience h3,
+.bloc h3{
+	text-align: center;
+    
+}
+.second-line{
+    width: 320px;
+}
+.border{
+	width: 100px;
+	height: 3px;
+	background: darkgreen;
+	margin: -2px auto;
+}
+
+.experience-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.experience-col{
+	flex: 50%;
+    margin-top: 20px;
+}
+
+.experience{
+	padding-right: 30px;
+}
+
+.experience p{
+	text-align: justify;
+	margin-bottom: 20px;
+    margin-left: 15px;
+    width: 250px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience a{
+	display: inline-block;
+	color: darkgreen;
+	text-decoration: none;
+	border: 2px solid darkgreen;
+	border-radius: 24px;
+	padding: 2px 20px;
+	transition: 0.4s linear;
+    margin-left: 100px;
+    font-size: 14px;
+}
+
+.experience a:hover{
+	color: #fff;
+	background: darkgreen;
+}
+.atouts{
+	margin: 10px 0px  10px 5px;
+}
+
+.line{
+	width: 100%;
+	height: 12px;
+	background: gray;
+	border-radius: 12px;
+}
+
+.line-bar{
+	height: 12px;
+	background: darkgreen;
+	border-radius: 12px;
+}
+.title{
+    font-size: 14px;
+}
+.p1{
+	width: 90%;
+}
+.p2{
+	width: 70%;
+}
+.p3{
+	width: 60%;
+}
+.p4{
+	width: 50%;
+}
+.line-bar span{
+	float: right;
+	margin-right: 6px;
+	line-height: 13px;
+	color: #fff;
+	font-size: 12px;
+}
+.time{
+    width: 80%;
+    margin-left: 10px;
+}
+.img-ligne{
+    width: 250px;
+    height: 300px;
+    margin: 32px 32px 32px 35px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+}
+.img-wrap img{
+    width: 110%;
+    margin: -13px 0px 0px -5px;
+}
+.img-wrap1{
+    width: 230px;
+    height: 150px;
+    background-image:url(images/homme-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img-wrap2{
+    width: 230px;
+    height: 150px;
+    background-image:url(images/femme-pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img-wrap3{
+    width: 230px;
+    height: 150px;
+    background-image:url(images/happy-young-african-man-holding-cellphone-removebg-preview.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title-imp{
+    width: 80%;
+    color:darkgreen;
+    margin: 5px 0px 0px 10px;
+}
+
+.fa-alarm-clock{
+    font-size: 30px;
+    color:darkgreen;
+}
+.para{
+    width: 90%;
+    padding: 10px;
+    font-size: 13px;
+}
+.btn{
+    border-style: none;
+    background-color: darkgreen;
+    border-radius: 5px;
+    margin: 0px 0px 10px 100px;
+    width: 20%;
+    color:white;
+}
+
+.footer-container{
+    position:relative;
+    width: 320px;
+    display: inline-block;
+    background-color: #d3e5e2;
+   
+}
+.map img{
+    width: 80%;
+    height: 180px;
+    margin: 32px 32px 32px 35px;
+}
+.contact-dispo{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size:8px;
+    margin: 32px 32px 32px 35px;
+}
+.contact{
+    width: 120px;
+    font-size:8px;
+    line-height: 1.8;
+    height: 40px;
+    border-left: 2px solid darkgreen;
+
+}
+.dispo{
+    width: 120px;
+    height: 40px;
+    font-size:8px;
+    margin-left: 40px;
+    border-left: 2px solid darkgreen;
+}
+.paragh,
+.dispo-text{
+    margin-left: 2px;
+}
+.motif{
+    color:white;
+   background-color:darkgreen;
+   padding: 5px;
+  }
+  .fa-clock{
+    color:gray;
+  }
+ .time span{
+    color:gray;
+ }
+ .paragh{
+     display: flex;
+     gap:3px;
+     
+ }
+
+ /* media query plus de 466 */
+
+
+ @media only screen and (min-width:466px) {
+    .big-container-desktop{
+        display: none;
+    }
+    .Big-container{
+        margin:auto;
+        width: 466px;
+    }
+    nav{
+        width: 466px;
+    }
+    img{
+        width: 60%;
+        margin-left:-50px;
+        margin-top: -25px;  
+    }
+    nav ul{
+        margin: -90px 0px 0px 220px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    .slider{
+        width: 466px;
+        height:300px;
+        
+    }
+    .text{
+        display: block;
+        margin-top: 60%;
+    }
+    
+    .text:after{
+        content:'' ;
+        font-size: 30px;
+    }
+    .img-tittle-one{
+        width: 400px;
+        margin-left: 25px;
+    }
+    .one-text{
+        width: 400px;
+        text-align: justify;
+        margin: 10px 30px 10px 30px;
+    }
+    .icon-savoir-plus{
+        width: 100px;
+        height: 35px;
+        margin: 0px 110px 0px 200px;
+    }
+    .video-wrapper video{
+        width: 400px;
+        margin: 10px 30px 10px 30px;
+    }
+    marquee.procedure{
+        width: 446px;
+        height: 200px;
+        
+      }
+      .experience-container{
+        width: 400px;
+        margin: 20px 30px 10px 30px;
+    }
+    .experience p{
+        width: 320px;
+    }
+    .experience a{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .experience-width h3{
+        margin-left: 100px;
+    }
+    .bloc h3{
+        margin-left: 150px;
+    }
+    .img-ligne{
+        width: 300px;
+        height: 300px;
+        margin: 32px 32px 32px 80px;
+    }
+    .img-wrap1{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/homme-logo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap2{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/femme-pc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap3{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/happy-young-african-man-holding-cellphone-removebg-preview.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap img{
+        width: 92%;
+        margin: -13px 0px 0px -5px;
+    }
+    .btn{
+        margin: 0px 0px 10px 120px;
+    }
+    .footer-container{
+        position:relative;
+        width: 466px;
+        display: inline-block;
+        background-color: #d3e5e2;
+       
+    }
+    .map img{
+        width: 100px;
+        height: 100px;
+        margin: 32px 32px 32px 35px;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-dispo{
+        margin-top: 50px;
+    }
+}
+
+/*media query tablette*/
+
+
+@media only screen and (min-width:600px) {
+    .big-container-desktop{
+        display: none;
+    }
+    .Big-container{
+        margin:auto;
+        width: 600px;
+    }
+    nav{
+        width: 600px;
+    }
+    img{
+        width: 50%;
+        margin-left:-70px;
+        margin-top: -30px;  
+    }
+    nav ul{
+        margin: -90px 0px 0px 290px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    .slider{
+        width: 600px;
+        height:300px;
+        
+    }
+    .text{
+        display: block;
+        margin-top: 60%;
+    }
+    
+    .text:after{
+        content:'' ;
+        font-size: 20px;
+    }
+    .img-tittle-one{
+        width: 270px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .one-text{
+        width: 250px;
+        text-align: justify;
+        margin: 10px 30px 10px 30px;
+        font-size: 12px;
+    }
+    .icon-savoir-plus{
+        width: 70px;
+        height: 25px;
+        margin: 0px 0px 0px 30px;
+        font-size: 10px;
+    }
+    .video-wrapper video{
+        width: 280px;
+        margin: 10px 30px 10px 20px;
+    }
+    .one{
+
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    marquee.procedure{
+        width: 580px;
+        height: 200px;
+        
+      }
+      .experience-container{
+        width: 550px;
+        margin: 20px 30px 10px 30px;
+    }
+    .experience p{
+        width: 250px;
+    }
+    .experience a{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .experience-width h3{
+        margin-left: 170px;
+    }
+    .experience-col{
+        flex: 30%;
+        margin-top: 50px;
+    }
+    .line{
+        width: 100%;
+        height: 10px;
+        background: gray;
+        border-radius: 12px;
+    }
+    
+    .line-bar{
+        height: 10px;
+        background: darkgreen;
+        border-radius: 12px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .line-bar span{
+        font-size: 8px;
+    }
+    .bloc h3{
+        margin-left: 200px;
+    }
+    .img-ligne{
+        width: 150px;
+        height: 320px;
+        margin: 32px 20px 32px 27px;
+    }
+    .img-wrap1{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/homme-logo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap2{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/femme-pc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap3{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/happy-young-african-man-holding-cellphone-removebg-preview.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap img{
+        width: 92%;
+        margin: 40px 0px 0px -5px;
+    }
+    .btn{
+        margin: 0px 0px 10px 65px;
+        border-radius: 3px;
+    }
+    .footer-container{
+        position:relative;
+        width: 600px;
+        display: inline-block;
+        background-color: #d3e5e2;
+       
+    }
+    .map img{
+        width: 150px;
+        height: 120px;
+        margin: 32px 32px 32px 0px;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-dispo{
+        margin-top: 50px;
+    }
+    .one-ligne{
+        display: flex;
+    }
+    .contact-dispo{
+        width: 250px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        font-size:10px;
+        margin: 32px 32px 32px 35px;
+    }
+    .contact{
+        width: 100px;
+        font-size:10px;
+        line-height: 1.5;
+        height: 60px;
+        border-left: 1.5px solid darkgreen;
+    
+    }
+    .dispo{
+        width: 180px;
+        height: 60px;
+        font-size:10px;
+        margin-left: 43px;
+        border-left: 1.5px solid darkgreen;
+    }
+    .paragh,
+    .dispo-text{
+        margin-left: 2px;
+    }
+    .contact{
+        width: 170px;
+        font-size:10px;
+        line-height: 1.8;
+        height: 70px;
+        border-left: 1.5px solid darkgreen;
+    
+    }
+    
+}
+
+/* media query desktop */
+
+
+@media only screen and (min-width:1024px) {
+    .big-container-desktop{
+        display: contents;
+        width: 500%;
+    }
+    
+    body{
+        margin: auto;
+        background-color:#d3e5e2 ;
+        color: #172927;
+    }
+    
+    
+    .slider{
+        width: 100%;
+        height:auto;
+        background-image: url(img/IMG-20220422-WA0015.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        animation:slider 35s infinite linear;
+        padding-bottom: 50%;
+        position: relative;
+    }
+    .text-container{
+        
+        width: auto;
+        height: 50px;
+        
+        margin-left: 80PX;
+        position: absolute;
+       
+        
+    }
+    .text{
+        display: block;
+        margin-top: 30%;
+    }
+    
+    .text:after{
+        content:'' ;
+        font-size: 5rem;
+        text-size-adjust:auto;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        animation:bande 35s infinite linear;
+        margin-left: 0px;
+        
+    
+    }
+    
+    @keyframes slider{
+      
+    
+        0% {background-image: url(images/homme-saut.png);
+            background-size: cover;
+        background-position-y: 20%;}
+
+        15%{background-image: url(img/IMG-20220422-WA0015.jpg);
+            background-position:center;
+            background-size: cover; }
+       
+        45%{background-image: url(img/homme-ordinateur-souriant.jpg);
+        background-size: cover;}
+       
+        75%{background-image: url(images/femme-pc.jpg);
+            background-size: cover;}
+        90%{background-image: url(img/IMG-20220422-WA0024.jpg);
+            background-size: cover;}
+        100%{background-image: url(images/homme-saut.png);
+            background-size: cover;
+        background-position-y: 20%;}
+    
+    }
+    @keyframes bande{
+        0%{color: black;
+       content: "BIENVENU A HOMABIOPE "; }
+        15%{color: rgb(31, 231, 221);
+        content: "Heureux de vous compter parmis nous";
+        margin-top: 50%;}
+        30%{ color: rgb(0, 225, 255);}
+        45%{ color: rgb(44, 114, 243);
+        content: "une equipe dynamique a votre service 24H/24";}
+      
+        75%{ color: rgb(19, 96, 185);
+        content: "rejoignez notre communauté !";}
+        90%{ color: rgb(157, 68, 240);
+        content: "vivez l'experience du numérique!";}
+        100%{ color: green;
+            content: "Bienvenu a homabiopé";}
+    }
+    .menu-bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+    }
+    .logo-d{
+        width: 100px;
+        margin:50px;
+        margin-left: 80px;
+    }
+    .one-d{
+        display: flex;
+        justify-content: right;
+        align-items:center;
+        margin: 40px;
+    
+    }
+    .img-tittle-one-d{
+        font-size: 2rem;
+        color:#172927;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-transform: uppercase;  
+        text-align: end;
+    }
+    /*
+    .img-tittle-one::after{
+    content: "pour en savoir plus";
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    font-size: small;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 80px;
+    */
+    
+    
+    .savoir-plus-d{
+        margin: 40px;
+    }
+    .one-text-d{
+        width: 400px;
+    }
+    .secteurs{
+    
+        
+        border: 1px solid;
+    
+    }
+    .logo-d img{
+        width: 200px;
+    }
+    .link-bar{
+    
+        display: flex;
+        justify-content: space-around;
+    }
+    .link-bar a{
+        text-shadow: 5px 0px 5px black , -5px 0px 5px black;
+        text-decoration:none;
+        margin-right: 20px;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: azure;
+    }
+    
+    
+  
+    .video-wrapper-d{
+        margin-left: 20px;
+        margin-right: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+      /* groupe 3 */
+
+    .groupe3-d{
+        margin: 0px 0px;
+        width: 2024px;
+        display: flex;
+        animation:  20s   infinite; 
+        animation-direction: linear;
+        float:left;
+        
+        padding-right: 00px;
+        padding-left: 20px;
+        position: relative;
+        
+    
+        
+    }
+    .groupe3-d:hover{
+        animation:figure  20s   infinite; 
+        animation-direction: linear;
+        float: left;
+        
+    }
+    figure img{
+        border-radius: 20px;
+    }
+    figure i{
+        font-size: 50px;
+        margin-top: 160px;
+        position:absolute;
+        z-index: 3;
+    }
+    figure i:hover{
+        color: rgb(20, 104, 38);
+        cursor: pointer;
+        text-shadow: 5px 5px 10px, 5px 5px 10px #7a8d3a;
+    }
+    
+    @keyframes figure{
+        0%{transform:translateX(0%);}
+        5%{transform:translateX(0%);}
+        10%{transform:translateX(-40%);}
+        20%{transform:translateX(-40%);}
+        30%{transform:translateX(-40%);}
+        50%{transform:translateX(-40%);}
+        60%{transform:translateX(-40%);}
+        70%{transform:translateX(-40%);}
+        90%{transform:translateX(-40%);}
+        150%{transform:translateX(-40%);}
+    }
+    
+    .img-text-3burger-d img{
+        width: auto;
+        height: 200px;
+        margin-left: 25px;
+    }
+    .img-text-3burger-d{
+        text-align: center;
+    }
+    .img-text-3burger-d div{
+
+        margin-left: 30px;
+    }
+    .img-tittle-d{
+        font-size: 2rem;
+        color:#172927;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 30px;
+        text-transform: uppercase;   
+    }
+    .button-groupe3-d{
+        padding: 7px 15px;
+        background-color:#172927;
+        border: none;
+        color:white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1rem;
+        margin: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .button-groupe3-d:hover{
+        background-color:red;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 2px solid red;
+    }
+    .button-section3{
+        padding: 7px 15px;
+        background-color: rgba(192, 34, 35, 1);
+        border: none;
+        color:white;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1rem;
+        margin-left: 50%;
+        margin-bottom: 100px;
+    }
+    
+    
+    .container-img-info-d{
+        display: flex;
+        margin-top: 25px;
+        width: 300px;
+       margin-left: 10px;
+    } 
+    .flex-line-d{
+        display: flex;
+        align-items: center;
+    }
+    .passeport-image-d{
+        display: flex;
+    }
+    .container-img-info-d{
+        border: px solid;
+        padding: 80px;
+        padding-right: 170px;
+        border-radius: 5px;
+        background-color:rgb(238, 252, 238);
+        margin: 30px;
+        box-shadow: 2px 4px 20px ;
+    }
+    .container-img-info-d div p{
+        margin-left: 35px;
+    }
+    .info-piece-d{
+        font-size: 1.5rem;
+        text-size-adjust:auto;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin: 10px;
+    }
+    main{
+        padding: 50px;
+    }
+    /*#4f7a75 vert menu
+    #f2efe6 blanc sale body
+    #172927 ecritures foncées
+    #00887e vert ecritures
+    #d3e5e2 vert fond des div
+    #17a2b8 vert bouttons*/
+   
+    .info-demande-d{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-demande-d{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 900px;
+    }
+
+    /*nos services*/
+
+    .services-d{
+        display: inline-block;
+        color: #146c53;
+        font-weight: bold;
+        font-size: 70px;
+        width: max-content;
+        margin: auto;
+        border: 1px solid;
+        background-color: #d3e5e2 ;border-radius: 50pX;
+        padding: 20px;
+        margin-left: 40%;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+    .fa-passport,
+    .fa-id-card,
+    .fa-file-lines,
+    .fa-folder-open{
+        color:#146c53;
+        font-size: 200px;
+    }
+    .lorem-d{
+        display: inline-block;
+        text-align: center;
+        width: 250px;
+        
+        
+    }
+    .passport-d,
+    .identite-d,
+    .naissance-d,
+    .cassier-judiciaire-d{
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+       border: 1px solid#146c53;
+       padding: 30px;
+       border-radius: 10px;
+       box-shadow: 1px 1px 10px;;
+    }
+    .services-items-d{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    b{
+        color: #146c53;
+    }
+    .bulle-de-parole-d{
+        display: block;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        padding: 40px;
+        box-shadow: 1px 1px 10px;
+        justify-content: center;
+        align-items: center;
+        color: #172927;
+        position: absolute;
+        margin-right: 370px;
+    }
+    .png-container-d{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .png-container-d img{
+        width: 700px;
+    }
+    .ils-en-parlent-d{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        background-image: url("https://presidence.gouv.tg/wp-content/uploads/2019/11/presidence-footer-pattern.png");
+        background-position: bottom center;
+        background-repeat: repeat-x;
+        font-family:cursive
+       
+    }
+   
+      .five-d{
+          margin-top: 100px;
+      }
+      .tittle-d{
+          width: max-content;
+          margin: auto;
+          font-family:cursive
+      }
+      marquee{
+        font-family:cursive;
+    
+        
+      }
+
+      /*etapes*/
+
+      .procedure-container-d{
+          width: 1200px;
+          height: 500px;
+          
+          margin: auto;
+          margin-top: 100px;
+          margin-bottom: 300px;
+    
+      }
+      .blue-d{
+          width: 500px;
+          height: 500px;
+          margin: 50px;
+          text-align: center;
+      }
+      .green-d{
+          width: 500px;
+          height: 500px;
+          margin: 50px;
+          text-align: center;
+      }
+     
+      
+      .grey-d{
+          width: 500px;
+          height: 500px;
+          margin: 50px;
+          text-align: center;
+      }
+    .procedure-d{
+        display: inline-flex;
+    }
+    .flex-marquee-d{
+        display: flex;
+    }
+    .etape-text1-d{
+        margin-top: 800px;
+    }
+    .procedure-container-d marquee{
+        height: 700px;
+        border-left: 10px solid #92e3a9;
+        border-right: 10px solid #92e3a9;
+    }
+    .procedure-image-wrapper-d{
+        background-color: #4185d0;
+        padding: 50px;
+        margin: auto;
+        width: 1030px;
+        border-radius:10PX 10px 10px 10px;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+        box-shadow: 2px 4px 20px ;
+        
+    }
+    .procedure-image-wrapper-d img{
+        border-radius: 10px 10px 0px 0px;
+    
+    }
+    /*last-section*/
+    #button{
+        width: 100px;
+        height:40px;
+        margin-top: 8px;
+        background-color:#5cce93 ;
+        font-size: 10px;
+        border-radius: 3px;
+        border: none;  
+        color: whitesmoke;
+        margin-left: -500px;
+    }
+    
+    #container2{
+        width: 700px;
+        height: 550px;
+        text-align: center;
+        font-size: 10px ;
+        color: #1e1d20;
+        margin: auto;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .spancontrain{
+    
+        display:flex;
+        justify-content:space-between;
+        width: 370px;
+        margin-left: 50px;
+    }
+    span{
+        display:inline-block;
+    }
+    input {
+        width: 225px;
+        height: 30px;
+        border-top:0px;
+        border-left: 0px;
+        border-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px ;
+        margin-left: -90px;
+        background-color:#d3e5e2;
+        border-bottom: 1px solid#172927;
+        color:  #172927;
+    
+    }
+    
+    textarea{
+        width: 500px;
+        height: 90px;
+        border-top:0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:#d3e5e2;
+        border-bottom: 1px solid#172927;
+        margin-left: -90px;
+    }
+    .subject2{
+        width: 500px;
+    }
+    .subject{
+        margin-left: 52px;
+        width: 7px;
+        margin-top: 10px;
+        
+        
+    }
+    .message{
+        margin-left: 52px;
+        width: 7px;
+        margin-bottom: 20px;
+       
+    }
+    
+    .getintouch{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 45px;
+    }
+    .container1{
+        display: inline-flex;
+        box-shadow: 1px 1px 20px 2px #aaa9a9;
+        border-radius: 8px;
+        height: 600px;
+        margin-left: -20%;
+    }
+    .firstcontainer2{
+    
+        background-color: #5cce93;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: initial;
+        font-size: 12px;
+        padding: 70px;
+        border-radius: 8px 0px 0px 8px;
+    
+    }
+    .motif-d{
+        color:rgb(255, 255, 11);
+       background-color: #4aa134;
+       padding: 5px;
+      }
+    .heading{
+        margin: 4px;
+    }
+    .inlineflex{
+        display: inline-flex;
+        margin-left: -10px;
+    }
+    .bigcircle{
+        height: 39px;
+        width: 39px;
+        border: 1px solid;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    
+        
+    }
+    .span{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    }
+    .info{
+        width: 200px;
+    }
+    .enfin{
+        margin-left:135px ;
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+    }
+    .last-one{
+        width: 600px;
+        margin-left: 30%;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    
+    }
+    
+    /* FOOTER */
+    
+    footer{
+        background-image: url(img/footer-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:top;
+    }
+    
+    /*groupe6*/
+    
+    .groupe6{
+      
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        color:#172927;
+        padding: 75px;
+    }
+    .groupe6-text{
+        width: 460px;
+    }
+    .flex-box2{
+        width: 50%;
+        margin-top: 200px;
+        margin-left: 230px;
+    }
+    .logo-text6{
+        font-size: 2rem;
+        color:#172927;
+        font-family:cursive;
+        margin-left: 10px;
+        text-transform: uppercase;
+        width:fit-content;
+    }
+    .map-container div img{
+        width: 30px;
+        margin-bottom: -10px; 
+    }
+    .map-container{
+      
+        height: 50px;
+    }
+    .map-container div span{
+        color:#172927;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+    .logotext-container6-d{
+        display: flex;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .logotext-container6-d img{
+        width: 150px;
+    }
+    .icons-container{
+        width: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -200px;
+        
+    }
+    .icons-container img{
+        height: 40px;
+        margin: 7px;
+    }
+    .footer-container-d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0px 50px;
+        color:#172927;
+    }
+    .footer-container-d img{
+    width: 50px;
+    }
+    .coopyright{
+        text-transform: uppercase;
+    }
+    /* END */
+    
+    .Big-container{
+        display: none;
+       /* margin:auto;
+        width: 100%;*/
+    }
+    /*
+    nav{
+        width: 100%;
+    }
+    img{
+        width: 30%;
+        margin-left:-70px;
+        margin-top: -30px;  
+    }
+    nav ul{
+        margin: -90px 0px 0px 700px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    .slider{
+        width: 1024px;
+        height:500px;
+        
+    }
+    .text{
+        display: block;
+        margin-top: 60%;
+    }
+    
+    .text:after{
+        content:'' ;
+        font-size: 40px;
+    }
+    .img-tittle-one{
+        width: 400px;
+        margin-left: -22px;
+        font-size: 20px;
+    }
+    .one-text{
+        width: 400px;
+        text-align: justify;
+        margin: 10px 30px 10px 0px;
+        font-size: 18px;
+    }
+    .icon-savoir-plus{
+        width: 100px;
+        height: 40px;
+        margin: 10px 0px 10px 10px;
+        font-size: 12px;
+    }
+    .video-wrapper video{
+        width: 450px;
+        height: 230px;
+        margin: 10px 0px 10px 190px;
+    }
+    .one{
+        width: 980px;
+        margin: 20px 0px 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    marquee.procedure{
+        width: 1000px;
+        height: 300px;
+        
+      }
+      .experience-container{
+        width: 1000px;
+        margin: 20px 30px 10px 10px;
+    }
+    .experience p{
+        width: 500px;
+        line-height: 1.8;
+    }
+    .experience a{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .experience-width h3{
+        margin-left: 400px;
+    }
+    .experience-col{
+        flex: 30%;
+        margin-top: 50px;
+    }
+    .line{
+        width: 100%;
+        height: 10px;
+        background: gray;
+        border-radius: 12px;
+    }
+    
+    .line-bar{
+        height: 10px;
+        background: darkgreen;
+        border-radius: 12px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .line-bar span{
+        font-size: 10px;
+    }
+    .bloc h3{
+        margin-left: 400px;
+    }
+    .img-ligne{
+        width: 230px;
+        height: 320px;
+        margin: 32px 20px 32px 70px;
+    }
+    .img-wrap1{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/homme-logo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap2{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/femme-pc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap3{
+        width: 230px;
+        height: 150px;
+        background-image:url(images/happy-young-african-man-holding-cellphone-removebg-preview.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .img-wrap img{
+        width: 92%;
+        margin: 10px 0px 0px -5px;
+    }
+    .btn{
+        margin: 0px 0px 10px 90px;
+        border-radius: 3px;
+    }
+    .footer-container{
+        position:relative;
+        width: 1024px;
+        display: inline-block;
+        background-color: #d3e5e2;
+       
+    }
+    .map img{
+        width: 200px;
+        height: 180px;
+        margin: 32px 0px 0px -250px;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-dispo{
+        margin-top: 50px;
+    }
+    .one-ligne{
+        display: flex;
+    }
+    .contact-dispo{
+        width: 250px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        font-size:14px;
+        margin: 32px 32px 32px 20px;
+    }
+    .contact{
+        width: 200px;
+        font-size:14px;
+        line-height: 1.5;
+        height: 60px;
+        border-left: 1.5px solid darkgreen;
+    
+    }
+    .dispo{
+        width: 120px;
+        height: 60px;
+        font-size:12px;
+        margin-left: 90px;
+        border-left: 1.5px solid darkgreen;
+    }
+    .paragh,
+    .dispo-text{
+        width: 180px;
+        margin-left: 2px;
+    }
+    .grey img,
+    .green img{
+      margin-left: 20px;
+      width: 150px;
+  }
+  .contact-dispo{
+      width: 400px;
+    margin-top: 50px;
+  }
+*/
+}
+
